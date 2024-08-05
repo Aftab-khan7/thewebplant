@@ -1,0 +1,43 @@
+
+
+/* ***********  Screen 1265px      *********** */
+
+@media screen and (max-width:1265px) {
+    
+    .container{
+        width: 100%;
+    }
+    .nav-list .nav-item a{
+        padding-right: 0px;
+    }
+
+  
+}
+
+
+
+
+/* ***********  Screen 1024px      *********** */
+
+@media screen and (max-width:1024px) {
+    
+    .nav-list{
+        width: 540px;
+    }
+
+    .nav-list .nav-item a{
+        padding-right: 0px;
+    }
+  
+}
+
+
+/* ***********  Screen 768px      *********** */
+
+@media screen and (max-width:768px) {
+    
+    .nav-list{
+        width: 540px;
+    }
+
+}
