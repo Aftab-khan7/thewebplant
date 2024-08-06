@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -6,45 +6,45 @@
     text-decoration: none;
 }
 
-body{
+body {
     color: #747373;
-    font-family: Montserrat,sans-serif;
+    font-family: Montserrat, sans-serif;
     font-weight: 400;
 }
 
-.nav-section{
+.nav-section {
     padding-top: 40px;
-   width: 100%;
-   
+    width: 100%;
+
 }
 
-.container{
-    width: 83%;
+.container {
+    width: 94%;
     margin: auto;
 }
 
 
 
-.nav-logo{
+.nav-logo {
     height: 50px;
     width: 190px;
-    
-   
+
+
 }
 
-.nav-logo img{
+.nav-logo img {
     height: 47px;
     width: 190px;
 }
 
-.item-list{
+.item-list {
     width: 980px;
     float: right;
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: -45px;
-    
+
 }
 
 .nav-list {
@@ -53,36 +53,37 @@ body{
     align-items: center;
     justify-content: space-evenly;
     width: 725px;
-    
+
 }
 
-.nav-list .nav-item a{
+.nav-list .nav-item a {
     color: black;
     font-size: 1.1rem;
     font-weight: 700;
-    padding-right:30px ;
+    padding-right: 30px;
 }
 
-.nav-list .nav-item a:hover{
+.nav-list .nav-item a:hover {
     color: #57b947;
 
 }
-#active-color{
+
+#active-color {
     color: #57b947;
 }
 
 
-.request-btn{
+.request-btn {
     background-color: #105e65;
     border-radius: 7px;
 }
 
 .request-btn:hover {
     background-color: #1cbac8;
-    
+
 }
 
-.request-btn p{
+.request-btn p {
     font-size: 1rem;
     color: white;
     padding: 10px 35px;
@@ -93,35 +94,35 @@ body{
 
 /* Hero Section */
 
-.hero-partner{
+.hero-partner {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.left-hero{
+.left-hero {
     width: 58%;
     padding-top: 50px;
 }
 
 
-.left-hero h1{
+.left-hero h1 {
     font-size: 5rem;
     color: black;
 }
 
 
-.left-hero p{
+.left-hero p {
     font-size: 1.2rem;
     padding-top: 15px;
-    
+
 }
 
-.right-hero{
-    width:600px;
+.right-hero {
+    width: 600px;
 }
 
-.right-hero img{
+.right-hero img {
     width: 90%;
     padding: 80px;
 }
@@ -134,13 +135,13 @@ body{
     border-radius: 7px;
 }
 
-.start-btn a{
+.start-btn a {
     color: white;
     font-size: 1.3rem;
     padding-left: 20px;
 }
 
-.content-hub-section h1{
+.content-hub-section h1 {
     color: black;
     text-align: center;
     font-size: 2rem;
@@ -149,23 +150,31 @@ body{
 
 }
 
-.content-box{
+.content-box {
     border: 1px solid rgb(231, 228, 228);
-    box-shadow: 2px 2px #e6e1e1;
-    width: 25%;
-    padding: 50px 10px 80px 10px;
+    box-shadow: 0 5px 20px 0 rgb(0, 0, 0, 0.2);
     text-align: center;
+    position: relative;
+    width: 25%;
 
 }
-.content-box a{
+
+.content-hub {
+    padding: 30px 10px 60px 10px;
+    position: relative;
+
+}
+
+.content-box a {
     color: black;
 }
 
-.content-box:hover{
+.content-box:hover {
     background-color: #57b947;
     color: white;
 }
-.content-box a:hover{
+
+a:hover {
     background-color: #57b947;
     color: white;
 }
@@ -178,21 +187,41 @@ body{
 
 }
 
-.content-image img{
+.content-image img {
     width: 50px;
 
 
 }
-.content-head{
-    color: black;
+
+
+.content-hover-image {
+    margin-top: -74px;
+    padding-bottom: 20px;
+
+
+}
+
+.content-hub-section .content-box :not(:hover) .content-hover-image {
+    display: none;
+
+}
+
+
+.content-hover-image img {
+    width: 50px;
+
+}
+
+.content-head {
     padding: 10px 0px;
 }
-.content-box .content-head p{
-    font-weight: 600;    
+
+.content-box .content-head p {
+    font-weight: 600;
     font-size: 1.2rem;
 }
 
-.content-box p{
+.content-box p {
     font-size: 1.05rem;
     padding: 10px 0px;
     font-weight: 100;
@@ -202,6 +231,10 @@ body{
 
 
 
+.line:not(:hover) .line{
+   display: none;
+   
+}
 
 
 
@@ -209,5 +242,39 @@ body{
 
 
 
+
+
+.top-line, .bottom-line  {
+    height: 2px;
+    position: absolute;
+    right: -50px;
+    width: 135%;
+    background: linear-gradient(90deg,rgba(149, 255, 156, 0), #0ec85e, rgba(149, 255, 156, 0));
+}
+
+.top-line{
+    top: 0;
+}
+.bottom-line{
+    bottom: 0;
+}
+
+.left-line, .right-line{
+    height: 135%;
+    width: 2px;
+    position: absolute;
+    top: -75px;
+    background: linear-gradient(180deg,rgba(149, 255, 156, 0), #0ec85e, rgba(149, 255, 156, 0));
+       
+}
+
+.left-line{
+    left: 0;
+   
+}
+
+.right-line{
+    right: 0;
+}
 
 
