@@ -6,9 +6,32 @@
     
     .container{
         width: 100%;
+        padding: 0px 12px;
     }
     .nav-list .nav-item a{
         padding-right: 0px;
+    }
+    .left-hero {
+        width: 60%;
+        padding-top: 50px;
+    }
+
+    .right-hero {
+        width: 40%;
+    }
+    
+    .right-hero img {
+        width: 100%;
+          
+    }
+
+    .item-list {
+        width: 800px;
+           
+    }
+    .nav-list {
+      width: 580px;
+    
     }
 
   
@@ -28,6 +51,41 @@
     .nav-list .nav-item a{
         padding-right: 0px;
     }
+
+
+    .left-hero h1 {
+        font-size: 3.1rem;        
+    }
+    
+
+    .left-hero p {
+        font-size: 1rem;
+        padding-top: 15px;
+        line-height: 1.5;
+        font-weight: 100;
+    
+    }
+    .right-hero img {
+        width: 100%;
+       
+    }
+
+    .hero-partner {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .right-hero {
+        width: 50%;
+    }
+
+
+
+
+
+
+
+
   
 }
 
@@ -39,5 +97,36 @@
     .nav-list{
         width: 540px;
     }
+    .left-hero h1 {
+        font-size: 2.5rem;        
+    }
+
+    .left-hero {
+        width: 100%;
+        padding-top: 50px;
+    }
+
+    .right-hero {
+        display: none;
+    }
+    
+   
+}
+
+
+
+
+
+
+/* ***********  Screen 425px      *********** */
+
+@media screen and (max-width:425px) {
+    
+    
+    .left-hero h1 {
+        font-size: 2rem;        
+    }
+
+    
 
 }
