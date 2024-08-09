@@ -315,10 +315,13 @@ a:hover {
 
 /* ********      Our Service Packages for HubSpot Content Hub     **********  */
 
+
+
 .service-packages-section{
     margin-top: 50px;
-    max-width: 100%;
+    max-width: 1400px;
     background-color: black;
+    height: 100%;
 }
 
 
@@ -329,8 +332,115 @@ a:hover {
     padding-top: 50px;
 }
 
+.service-packages-hubstop{
+    position: relative;
+    margin-top: 50px;
+}
+
+/* service-packages-bg */
+.service-packages-bg{
+    height: 100%;
+    width: 100%;
+   
+}
+
+.background-images{
+   
+    height: 100%;
+    width: 100%;
+    opacity: 0.2;
+}
 
 
+/*   service-packages-scrollers */
+
+.service-packages-scrollers{
+    display: flex;
+}
+
+
+
+
+/*   service-package-rightscroll */
+
+.service-package-rightscroll{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 23%;
+    display: flex;
+    flex-direction: column;
+    border-left: 1px solid green;
+    padding: 150px 20px 0px 10px;
+
+}
+.service-package-rightscroll a{
+    color: white;
+    margin-bottom: 50px;
+    font-size: 1.4rem;
+    padding: 0px 0px 0px 10px;
+    position: static;
+    
+
+}
+
+
+/*   service-package-leftscroll */
+.service-package-leftscroll{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 77%;
+    padding: 150px 20px 0px 10px;
+}
+
+.service-package-leftscroll, .ideal-for, .example p{
+    color: white;
+}
+.service-package-leftscroll h3{
+    color: #0ec85e;
+}
+
+
+.web-migration {
+    display: flex;
+    padding: 20px 10px 20px 10px;
+  
+}
+
+.web-mig-example{
+    width: 50%;
+
+}
+
+
+
+
+
+.web-mig-feature{
+    width: 50%;
+    padding: 0px 0px 0px 35px;
+
+}
+
+.web-mig-feature h3{
+    padding: 0px 0px 20px 0px;
+    font-size: 1.48rem;
+
+}
+
+.web-mig-feature li{
+    padding: 10px 0px 1% 0px;
+   
+}
+
+.web-mig-feature li::before{
+    color: #57b947;
+    content: "\f058";
+    font-family: FontAwesome;
+    left: -25px;
+    position: absolute;
+}
 
 
 
