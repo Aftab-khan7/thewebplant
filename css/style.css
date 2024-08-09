@@ -63,7 +63,8 @@ body {
     padding-right: 30px;
 }
 
-.nav-list, .nav-item a:hover {
+.nav-list,
+.nav-item a:hover {
     color: #57b947;
 
 }
@@ -126,7 +127,7 @@ body {
 
 .right-hero img {
     width: 70%;
-      
+
 }
 
 .start-btn {
@@ -143,12 +144,21 @@ body {
     padding-left: 20px;
 }
 
+
+/* ********      HubSpot Content Hub Services     **********  */
+
 .content-hub-section h1 {
     color: black;
     text-align: center;
     font-size: 2rem;
     padding: 80px;
 
+}
+
+.hubspot-services {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
 
@@ -157,13 +167,17 @@ body {
     box-shadow: 0 5px 20px 0 rgb(0, 0, 0, 0.2);
     text-align: center;
     position: relative;
-    width: 25%;
+    margin-left: 30px;
+    transition: all .3s ease;
+ 
 
 }
+
 
 .content-hub {
     padding: 30px 10px 60px 10px;
     position: relative;
+
 
 }
 
@@ -174,6 +188,8 @@ body {
 .content-box:hover {
     background-color: #57b947;
     color: white;
+    
+
 }
 
 a:hover {
@@ -233,68 +249,59 @@ a:hover {
 
 
 
-.top-line, .bottom-line  {
-    height: 2px;
+.top-line,
+.bottom-line {
+    height: 0.2rem;
     position: absolute;
     right: -50px;
-    width: 135%;
-    background: linear-gradient(90deg,rgba(149, 255, 156, 0), #0ec85e, rgba(149, 255, 156, 0));
-}
+    width: calc(100% + 110px);
+    background: linear-gradient(90deg, rgba(149, 255, 156, 0), #0ec85e, rgba(149, 255, 156, 0));
+    
+    }
 
-.top-line{
+.top-line {
     top: 0;
+    
 }
 
 .content-hub-section .content-box :not(:hover) .top-line {
     display: none;
+    
 
 }
 
-.content-box:hover .top-line{
-    width: calc(100% + 110px);
-}
-
-
-
-.bottom-line{
+.bottom-line {
     bottom: 0;
-}
 
+}
 
 .content-hub-section .content-box :not(:hover) .bottom-line {
     display: none;
 
 }
-.content-box:hover .top-line{
-    width: calc(100% + 110px);
-}
 
-
-
-
-.left-line, .right-line{
-    height: 135%;
-    width: 2px;
+.left-line,
+.right-line {
+    height: calc(100% + 110px);
+    width: 0.2rem;
     position: absolute;
     top: -75px;
-    background: linear-gradient(180deg,rgba(149, 255, 156, 0), #0ec85e, rgba(149, 255, 156, 0));
-       
+    background: linear-gradient(180deg, rgba(149, 255, 156, 0), #0ec85e, rgba(149, 255, 156, 0));
+
 }
 
-.left-line{
+.left-line {
     left: 0;
-   
+
 }
 
 .content-hub-section .content-box :not(:hover) .left-line {
     display: none;
 
 }
-.content-box:hover .top-line{
-    width: calc(100% + 110px);
-}
 
-.right-line{
+
+.right-line {
     right: 0;
 }
 
@@ -302,6 +309,41 @@ a:hover {
     display: none;
 
 }
-.content-box:hover .top-line{
-    width: calc(100% + 110px);
+
+
+
+
+/* ********      Our Service Packages for HubSpot Content Hub     **********  */
+
+.service-packages-section{
+    margin-top: 50px;
+    max-width: 100%;
+    background-color: black;
 }
+
+
+.service-packages-section h1{
+    text-align: center;
+    color: white;
+    font-size: 2.2rem;
+    padding-top: 50px;
+}
+
+
+
+
+
+
+
+/* ********      HubSpot Content Hub Services     **********  */
+
+
+
+
+
+
+/* ********      HubSpot Content Hub Services     **********  */
+
+
+
+/* ********      HubSpot Content Hub Services     **********  */

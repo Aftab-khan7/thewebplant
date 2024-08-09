@@ -1,16 +1,16 @@
-
-
 /* ***********  Screen 1265px      *********** */
 
 @media screen and (max-width:1265px) {
-    
-    .container{
+
+    .container {
         width: 100%;
         padding: 0px 12px;
     }
-    .nav-list .nav-item a{
+
+    .nav-list .nav-item a {
         padding-right: 0px;
     }
+
     .left-hero {
         width: 60%;
         padding-top: 50px;
@@ -19,22 +19,23 @@
     .right-hero {
         width: 40%;
     }
-    
+
     .right-hero img {
         width: 100%;
-          
+
     }
 
     .item-list {
         width: 800px;
-           
-    }
-    .nav-list {
-      width: 580px;
-    
+
     }
 
-  
+    .nav-list {
+        width: 580px;
+
+    }
+
+
 }
 
 
@@ -43,31 +44,32 @@
 /* ***********  Screen 1024px      *********** */
 
 @media screen and (max-width:1024px) {
-    
-    .nav-list{
+
+    .nav-list {
         width: 540px;
     }
 
-    .nav-list .nav-item a{
+    .nav-list .nav-item a {
         padding-right: 0px;
     }
 
 
     .left-hero h1 {
-        font-size: 3.1rem;        
+        font-size: 3.1rem;
     }
-    
+
 
     .left-hero p {
         font-size: 1rem;
         padding-top: 15px;
         line-height: 1.5;
         font-weight: 100;
-    
+
     }
+
     .right-hero img {
         width: 100%;
-       
+
     }
 
     .hero-partner {
@@ -75,8 +77,17 @@
         align-items: center;
         justify-content: center;
     }
+
     .right-hero {
         width: 50%;
+    }
+
+    .hubspot-services {
+        display: block;
+        column-count: 2;
+    }
+    .content-box{
+        margin-bottom: 35px;   
     }
 
 
@@ -84,21 +95,19 @@
 
 
 
-
-
-  
 }
 
 
 /* ***********  Screen 768px      *********** */
 
 @media screen and (max-width:768px) {
-    
-    .nav-list{
+
+    .nav-list {
         width: 540px;
     }
+
     .left-hero h1 {
-        font-size: 2.5rem;        
+        font-size: 2.5rem;
     }
 
     .left-hero {
@@ -109,8 +118,22 @@
     .right-hero {
         display: none;
     }
-    
+    .hubspot-services {
+        display: block;
+        column-count: 1;
+    }
+
    
+
+
+
+
+
+
+
+
+
+
 }
 
 
@@ -121,12 +144,12 @@
 /* ***********  Screen 425px      *********** */
 
 @media screen and (max-width:425px) {
-    
-    
+
+
     .left-hero h1 {
-        font-size: 2rem;        
+        font-size: 2rem;
     }
 
-    
+
 
 }
