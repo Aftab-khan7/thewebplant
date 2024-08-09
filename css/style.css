@@ -391,16 +391,29 @@ a:hover {
     top: 0;
     left: 0;
     width: 77%;
-    padding: 150px 20px 0px 10px;
+    padding: 150px 20px 0px 30px;
 }
 
 .service-package-leftscroll, .ideal-for, .example p{
     color: white;
+    line-height: 1.7;
 }
 .service-package-leftscroll h3{
     color: #0ec85e;
+    font-size: 1.7rem;
+    padding: 30px 0px 10px 0px;
+
+
 }
 
+.service-package-leftscroll h2{
+    font-size: 2.4rem;
+    padding-bottom: 20px;
+}
+
+.ideal-for li, .example li{
+    padding-left: 40px;
+}
 
 .web-migration {
     display: flex;
@@ -434,7 +447,10 @@ a:hover {
    
 }
 
-.web-mig-feature li::before{
+/*
+
+
+.web-mig-feature ul li::before{
     color: #57b947;
     content: "\f058";
     font-family: FontAwesome;
@@ -442,6 +458,8 @@ a:hover {
     position: absolute;
 }
 
+
+*/
 
 
 
