@@ -168,7 +168,7 @@ body {
     text-align: center;
     position: relative;
     margin-left: 30px;
-    transition: all .3s ease;
+    transition: all .4s ease-in-out;
  
 
 }
@@ -183,6 +183,8 @@ body {
 
 .content-box a {
     color: black;
+    transition: all 0.4s ease-in-out;
+
 }
 
 .content-box:hover {
@@ -339,7 +341,7 @@ a:hover {
 
 /* service-packages-bg */
 .service-packages-bg{
-    height: 100%;
+    height: auto;
     width: 100%;
    
 }
@@ -364,7 +366,7 @@ a:hover {
 /*   service-package-rightscroll */
 
 .service-package-rightscroll{
-    position: absolute;
+    position: sticky;
     top: 0;
     right: 0;
     width: 23%;
@@ -372,6 +374,7 @@ a:hover {
     flex-direction: column;
     border-left: 1px solid green;
     padding: 150px 20px 0px 10px;
+    height: 100vh;
 
 }
 .service-package-rightscroll a{
@@ -386,11 +389,15 @@ a:hover {
 
 
 /*   service-package-leftscroll */
-.service-package-leftscroll{
+.left-services{
+    width: 77%;
+}
+
+.leftscroll{
     position: absolute;
     top: 0;
     left: 0;
-    width: 77%;
+    
     padding: 150px 20px 0px 30px;
 }
 
@@ -418,8 +425,8 @@ a:hover {
 .web-migration {
     display: flex;
     padding: 20px 10px 20px 10px;
-  
-}
+    width: 77%;
+}   
 
 .web-mig-example{
     width: 50%;
